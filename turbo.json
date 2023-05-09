@@ -1,0 +1,21 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"globalEnv": ["NODE_ENV"],
+	"pipeline": {
+		"build": {
+			"dependsOn": ["^build"],
+			"env": ["CF_PAGES"],
+			"outputs": [".svelte-kit/**"]
+		},
+		"lint": {
+			"cache": false
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		},
+		"clean": {
+			"cache": false
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.DS_Store
+.svelte-kit
+node_modules
+/build
+/package
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+yarn.lock
+
+# Prisma generated files
+zod-types/
+zod-types/**/*

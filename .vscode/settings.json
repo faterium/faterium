@@ -1,0 +1,27 @@
+{
+	"workbench.editor.labelFormat": "short",
+	"workbench.tree.indent": 12,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.fixAll.eslint": true
+	},
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"eslint.validate": ["javascript", "typescript", "svelte", "mdx"],
+	"scss.lint.unknownAtRules": "ignore",
+	"solidity.packageDefaultDependenciesContractsDirectory": "src",
+	"solidity.packageDefaultDependenciesDirectory": "lib",
+	"solidity.compileUsingRemoteVersion": "v0.8.19",
+	"solidity.remappings": [
+		"ds-test/=apps/contracts/lib/forge-std/lib/ds-test/src/",
+		"forge-std/=apps/contracts/lib/forge-std/src/",
+		"@openzeppelin/contracts/=apps/contracts/lib/openzeppelin-contracts/contracts/",
+		"@openzeppelin/contracts-upgradeable/=apps/contracts/lib/openzeppelin-contracts-upgradeable/contracts/"
+	],
+	"[solidity]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.documentSelectors": ["**/*.sol"]
+}
