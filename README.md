@@ -8,8 +8,7 @@ This repository includes the following packages/apps:
 
 ### Apps and Packages
 
-- `app`: a [svelte-kit](https://kit.svelte.dev/) app for https://app.faterium.com
-- `@faterium/config`: `eslint` configurations (includes `eslint-plugin-svelte` and `eslint-config-prettier`)
+- `@faterium/eslint-config`: `eslint` configurations (includes `eslint-plugin-svelte` and `eslint-config-prettier`)
 
 ### Utilities
 

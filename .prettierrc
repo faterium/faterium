@@ -4,15 +4,7 @@
 	"semi": false,
 	"trailingComma": "all",
 	"printWidth": 100,
-	"plugins": ["prettier-plugin-svelte", "prettier-plugin-solidity"],
+	"plugins": [],
 	"pluginSearchDirs": ["."],
-	"overrides": [
-		{ "files": "*.svelte", "options": { "parser": "svelte" } },
-		{
-			"files": "*.sol",
-			"options": {
-				"parser": "solidity-parse"
-			}
-		}
-	]
+	"overrides": []
 }
