@@ -8,6 +8,7 @@ const config = {
 		"prettier",
 	],
 	rules: {
+		"import/no-anonymous-default-export": "off",
 		"@next/next/no-html-link-for-pages": "off",
 		"@typescript-eslint/restrict-template-expressions": "off",
 		"@typescript-eslint/no-unused-vars": [

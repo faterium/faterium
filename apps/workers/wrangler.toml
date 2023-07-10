@@ -1,0 +1,21 @@
+account_id = "9f1dc19eb6d2c85796c07183e857cf89"
+compatibility_date = "2023-05-02"
+main = "src/index.ts"
+workers_dev = true
+
+[env.dev]
+kv_namespaces = []
+
+[env.staging]
+name = "faterium-api"
+routes = [
+	{ pattern = "api-dev.faterium.com", custom_domain = true }
+]
+
+[env.prod]
+name = "faterium-api"
+routes = [
+	{ pattern = "api.faterium.com", custom_domain = true }
+]
+[env.prod.placement]
+mode = "smart"
