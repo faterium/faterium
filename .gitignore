@@ -66,6 +66,8 @@ web-build/
 # Prisma generated files
 zod-types/
 kysely-types/
+dev.db
+dev.db-journal
 
 # Sentry
 .sentryclirc

@@ -7,7 +7,7 @@ export default defineConfig({
 		environment: "miniflare",
 		environmentOptions: {
 			wranglerConfigPath: "../../apps/workers/wrangler.toml",
-			kvNamespaces: [],
+			d1Databases: ["__D1_BETA__DB"],
 		},
 	},
 })

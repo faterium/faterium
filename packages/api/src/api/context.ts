@@ -3,8 +3,8 @@ import type { FetchCreateContextFnOptions } from "@trpc/server/adapters/fetch"
 import type { Toucan } from "toucan-js"
 
 export type EnvType = {
+	DB: D1Database
 	JWT_SECRET: string
-	DATABASE_URL: string
 }
 
 export function createContext(

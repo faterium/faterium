@@ -129,6 +129,9 @@ importers:
       kysely:
         specifier: ^0.24.2
         version: 0.24.2
+      kysely-d1:
+        specifier: ^0.3.0
+        version: 0.3.0(kysely@0.24.2)
       superjson:
         specifier: ^1.12.4
         version: 1.12.4
@@ -7722,6 +7725,14 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
     dev: true
+
+  /kysely-d1@0.3.0(kysely@0.24.2):
+    resolution: {integrity: sha512-9wTbE6ooLiYtBa4wPg9e4fjfcmvRtgE/2j9pAjYrIq+iz+EsH/Hj9YbtxpEXA6JoRgfulVQ1EtGj6aycGGRpYw==}
+    peerDependencies:
+      kysely: '*'
+    dependencies:
+      kysely: 0.24.2
+    dev: false
 
   /kysely@0.24.2:
     resolution: {integrity: sha512-+7eaTJNUYm2yRq1x+lEOZc+78TO35dTZ9b0dh49+Z9CTt2byMSbMiOKpwPlOyCAaHD4kILkAYWYZNywFlmBwRA==}

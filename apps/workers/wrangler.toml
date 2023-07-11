@@ -5,17 +5,22 @@ workers_dev = true
 
 [env.dev]
 kv_namespaces = []
+[[env.dev.d1_databases]]
+binding = "DB"
+database_name = "DB"
+database_id = "4f29cce6-1ade-4dc0-ada5-4dce6defb2c2"
+migrations_dir = "../../packages/api/prisma/migrations"
 
-[env.staging]
-name = "faterium-api"
-routes = [
-	{ pattern = "api-dev.faterium.com", custom_domain = true }
-]
+# [env.staging]
+# name = "faterium-api"
+# routes = [
+# 	{ pattern = "api-dev.faterium.com", custom_domain = true }
+# ]
 
-[env.prod]
-name = "faterium-api"
-routes = [
-	{ pattern = "api.faterium.com", custom_domain = true }
-]
-[env.prod.placement]
-mode = "smart"
+# [env.prod]
+# name = "faterium-api"
+# routes = [
+# 	{ pattern = "api.faterium.com", custom_domain = true }
+# ]
+# [env.prod.placement]
+# mode = "smart"

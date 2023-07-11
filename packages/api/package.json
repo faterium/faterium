@@ -25,6 +25,7 @@
 		"@tsndr/cloudflare-worker-jwt": "^2.2.1",
 		"dayjs": "^1.11.9",
 		"kysely": "^0.24.2",
+		"kysely-d1": "^0.3.0",
 		"superjson": "^1.12.4",
 		"toucan-js": "^3.1.0",
 		"ws": "^8.13.0",
