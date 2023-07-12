@@ -22,6 +22,7 @@ const defineConfig = {
 		supportsTablet: true,
 	},
 	android: {
+		package: "com.dodorare.faterium",
 		adaptiveIcon: {
 			foregroundImage: "./assets/icon.png",
 			backgroundColor: "#ffffff",
